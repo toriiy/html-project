@@ -45,6 +45,7 @@ header > ol > li {
     font-size: 20px;
     font-weight: 400;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 svg.position-circle {
@@ -88,6 +89,7 @@ div.inline > button:nth-of-type(1) {
     font-size: 27px;
     font-weight: 700;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 div.inline > button:nth-of-type(2) {
@@ -101,6 +103,7 @@ div.inline > button:nth-of-type(2) {
     font-size: 27px;
     font-weight: 700;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 /*SECTION TOP BLOCK*/
@@ -221,6 +224,7 @@ main > div.column2 > div.position-button > button {
     position: absolute;
     top: -6px;
     right: 5px;
+    cursor: pointer;
 }
 
 div.position-button {
@@ -281,6 +285,7 @@ section.middle > div.column3 > button {
     font-weight: 700;
     text-transform: capitalize;
     margin-top: 58px;
+    cursor: pointer;
 }
 
 section.middle > div.card1 {
@@ -351,12 +356,211 @@ section.middle > div.card2 > div.flex > button {
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 22px;
+    cursor: pointer;
 }
 
 div.flex {
     display: flex;
     gap: 12px;
 }
+
+/*MIDDLE CLIENTS*/
+
+section.middle-clients {
+    width: 1059px;
+    margin: 0 auto 208px auto;
+}
+
+section.middle-clients > p {
+    color: #5BD2BF;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section.middle-clients > h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 427px;
+    margin: 0 auto 147px auto;
+}
+
+section.middle-clients > div.inline-clients > div {
+    width: 345px;
+    height: 360px;
+    border-radius: 10px;
+    background: #24293F;
+    padding: 83px 0 75px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+section.middle-clients > div.inline-clients > div > h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 27px;
+}
+
+section.middle-clients > div.inline-clients > div > p {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 302px;
+}
+
+section.middle-clients > div.inline-clients > div > img {
+    object-fit: cover;
+    border-radius: 50%;
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: -75px;
+}
+
+section.middle-clients > div.inline-clients {
+    display: flex;
+    gap: 14px;
+}
+
+/*SECTION BOTTOM*/
+
+section.bottom {
+    width: 1063px;
+    height: 378px;
+    flex-shrink: 0;
+    margin: 0 auto 262px auto;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+    padding: 24px 0 50px 0;
+}
+
+section.bottom > h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px; /* 100% */
+    width: 312px;
+    margin: 0 auto;
+}
+
+section.bottom > button {
+    width: 344px;
+    height: 85px;
+    border-radius: 50px;
+    border: none;
+    background: #000;
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+    text-transform: uppercase;
+    margin: 39px auto 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 1059px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 134px;
+}
+
+footer > p {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration-line: line-through;
+    text-transform: capitalize;
+    margin-right: 126px;
+}
+
+footer > div > p {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 19px;
+}
+
+footer > div > div.gap > p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+footer > div:nth-of-type(2) {
+    margin: 0 119px 0 97px;
+}
+
+footer > div:nth-last-of-type(1) {
+    margin-left: 105px;
+}
+
+footer > div:nth-last-of-type(1) > p {
+    margin-bottom: 9px;
+    width: 230px;
+}
+
+footer > div > div.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+footer > div > div.footer-block {
+    width: 253px;
+    height: 60px;
+    border-radius: 50px;
+    background: #3B7C70;
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+
+footer > div > div.footer-block > p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    opacity: 0.8;
+    margin-left: 12px;
+}
+
+footer > div > div.footer-block > button {
+    width: 100px;
+    height: 58px;
+    border-radius: 50px;
+    border: none;
+    background: #262E48;
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+
+
+
+
 
 
 
