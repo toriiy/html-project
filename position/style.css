@@ -39,9 +39,9 @@ header > span {
     text-transform: capitalize;
 }
 
-header > ol > li {
+header > ol > li > a {
+    text-decoration: none;
     color: #FFF;
-    text-align: center;
     font-size: 20px;
     font-weight: 400;
     text-transform: capitalize;
