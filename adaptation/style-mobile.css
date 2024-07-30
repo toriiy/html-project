@@ -1,0 +1,53 @@
+@media screen and (max-width: 480px) {
+
+    div.background {
+        height: 823px;
+        padding-top: 30px;
+    }
+
+    /*HEADER*/
+    header {
+        width: 257px;
+        height: 60px;
+        margin: 0 0 60px 10px;
+    }
+
+    header > div > p {
+        padding-left: 4px;
+    }
+
+    header > ol {
+        display: none;
+    }
+
+    /*MAIN*/
+    main {
+        flex-direction: column;
+        width: 300px;
+        gap: 105px;
+
+    }
+
+    main > div {
+        align-items: center;
+    }
+
+    main > div > h2 {
+        width: 200px;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+
+    main > div > p {
+        width: 300px;
+        text-align: center;
+    }
+
+    main > img {
+        width: 260px;
+        height: 271.774px;
+        object-fit: cover;
+    }
+
+}
