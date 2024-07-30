@@ -50,4 +50,33 @@
         object-fit: cover;
     }
 
+    /*ARTICLE*/
+    article {
+        width: 300px;
+        height: 974px;
+        margin: 0 auto 42px auto;
+        padding: 0;
+        flex-direction: column-reverse;
+        gap: 42px;
+    }
+
+    article > img {
+        width: 260px;
+        height: 353.6px;
+        object-fit: cover;
+    }
+
+    article > div > h2 {
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        width: 250px;
+    }
+
+    article > div > p {
+        width: 270px;
+        text-align: justify;
+    }
+
+
 }
