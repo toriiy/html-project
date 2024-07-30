@@ -24,7 +24,9 @@
     main {
         flex-direction: column;
         width: 300px;
-        gap: 105px;
+        height: 673px;
+        gap: 104px;
+        margin-bottom: 0;
 
     }
 
@@ -53,7 +55,7 @@
     /*ARTICLE*/
     article {
         width: 300px;
-        height: 974px;
+        height: 944px;
         margin: 0 auto 42px auto;
         padding: 0;
         flex-direction: column-reverse;
@@ -78,5 +80,30 @@
         text-align: justify;
     }
 
+    /*SECTION PETS*/
+    section.pets {
+        width: 320px;
+        height: 791px;
+        padding: 42px 0;
+    }
+
+    section.pets > h2 {
+        width: 300px;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+
+    section.pets > div.flex > div:nth-of-type(2),
+    section.pets > div.flex > div:nth-of-type(3) {
+        display: none;
+    }
+
+    section.pets > button {
+        width: 260px;
+    }
+
+    div.flex {
+        margin: 42px 0 72px 0;
+    }
 
 }
