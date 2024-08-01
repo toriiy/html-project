@@ -19,6 +19,7 @@ header {
     margin: 0 auto 60px auto;
     display: flex;
     justify-content: space-between;
+    font-family: Arial, sans-serif;
 }
 
 header > div > h3 {
@@ -33,7 +34,6 @@ header > div > h3 {
 
 header > div > p {
     color: #FFF;
-    font-family: Arial, sans-serif;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 1.3px;
@@ -48,7 +48,6 @@ header > ol {
 
 header > ol > li > a {
     color: #CDCDCD;
-    font-family: Arial, sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 160%;
@@ -58,7 +57,7 @@ header > ol > li > a {
 
 header > ol > li > a:hover {
     text-decoration: underline solid 3px;
-    text-underline-offset: 10px;
+    text-underline-offset: 8px;
     color: #FAFAFA;
     transition: 0.5s;
 }
@@ -110,6 +109,12 @@ main > div > button {
     font-weight: 400;
     line-height: 130%;
     letter-spacing: 1.02px;
+    transition: 0.5s;
+}
+
+main > div > button:hover {
+    background: #cda687;
+    transition: 0.5s;
 }
 
 /*ARTICLE*/
@@ -129,7 +134,7 @@ article > div > h2 {
     font-family: Georgia, sans-serif;
     font-size: 35px;
     font-weight: 400;
-    line-height: 130%; /* 45.5px */
+    line-height: 130%;
     letter-spacing: 2.1px;
     width: 370px;
 }
@@ -159,12 +164,12 @@ section.pets {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Georgia, sans-serif;
 }
 
 section.pets > h2 {
     color: #545454;
     text-align: center;
-    font-family: Georgia, sans-serif;
     font-size: 35px;
     font-weight: 400;
     line-height: 130%;
@@ -186,7 +191,6 @@ section.pets > div.flex > div {
 
 section.pets > div.flex > div > span {
     color: #545454;
-    font-family: Georgia, sans-serif;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 1.2px;
@@ -204,6 +208,12 @@ section.pets > div.flex > div > button {
     font-weight: 400;
     line-height: 130%;
     letter-spacing: 1.02px;
+    transition: 0.5s;
+}
+
+section.pets > div.flex > div > button:hover {
+    background-color: #f8e7dd;
+    transition: 0.5s;
 }
 
 section.pets > button {
@@ -218,6 +228,12 @@ section.pets > button {
     font-weight: 400;
     line-height: 130%;
     letter-spacing: 1.02px;
+    transition: 0.5s;
+}
+
+section.pets > button:hover {
+    background: #f3c4a2;
+    transition: 0.5s;
 }
 
 div.flex {
@@ -234,12 +250,12 @@ section.help {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Georgia, sans-serif;
 }
 
 section.help > h2 {
     color: #545454;
     text-align: center;
-    font-family: Georgia, sans-serif;
     font-size: 35px;
     font-weight: 400;
     line-height: 130%;
@@ -273,7 +289,6 @@ section.help > div.row-2 > div {
 section.help > div.row-1 > div > h4,
 section.help > div.row-2 > div > h4 {
     color: #545454;
-    font-family: Georgia, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 115%;
@@ -294,6 +309,7 @@ section.donation {
     display: flex;
     justify-content: center;
     gap: 30px;
+    font-family: Georgia, sans-serif;
 }
 
 section.donation > div.column-donation {
@@ -304,7 +320,6 @@ section.donation > div.column-donation {
 
 section.donation > div.column-donation > h2 {
     color: #545454;
-    font-family: Georgia, sans-serif;
     font-size: 35px;
     font-weight: 400;
     line-height: 130%;
@@ -314,7 +329,6 @@ section.donation > div.column-donation > h2 {
 
 section.donation > div.column-donation > p:nth-of-type(1) {
     color: #545454;
-    font-family: Georgia, sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 110%;
@@ -334,7 +348,6 @@ section.donation > div.column-donation > div {
 
 section.donation > div.column-donation > div > p {
     color: #545454;
-    font-family: Georgia, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 115%;
@@ -361,6 +374,7 @@ footer {
     align-items: flex-end;
     justify-content: center;
     gap: 160px;
+    font-family: Georgia, sans-serif;
 }
 
 div.footer-background {
@@ -373,7 +387,6 @@ footer > div.column-footer > h3,
 footer > div.column2-footer > h3 {
     width: 280px;
     color: #FFF;
-    font-family: Georgia, sans-serif;
     font-size: 35px;
     font-weight: 400;
     line-height: 130%;
@@ -401,7 +414,6 @@ footer > div.column2-footer > div {
 footer > div.column-footer > div > p,
 footer > div.column2-footer > div > p {
     color: #F1CDB3;
-    font-family: Georgia, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 115%;
