@@ -45,7 +45,12 @@ header > ol > li > a {
     font-size: 20px;
     font-weight: 400;
     text-transform: capitalize;
-    cursor: pointer;
+    transition: 0.5s;
+}
+
+header > ol > li > a:hover {
+    color: #9c9c9c;
+    transition: 0.5s;
 }
 
 svg.position-circle {
@@ -90,6 +95,12 @@ div.inline > button:nth-of-type(1) {
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+div.inline > button:nth-of-type(1):hover {
+    background: #010b3c;
+    transition: 0.5s;
 }
 
 div.inline > button:nth-of-type(2) {
@@ -104,6 +115,12 @@ div.inline > button:nth-of-type(2) {
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+div.inline > button:nth-of-type(2):hover {
+    background: #1a1c29;
+    transition: 0.5s;
 }
 
 /*SECTION TOP BLOCK*/
@@ -155,7 +172,7 @@ main > div.column2 > h2 {
     color: #FFF;
     font-size: 60px;
     font-weight: 700;
-    line-height: 73px; /* 121.667% */
+    line-height: 73px;
     width: 572px;
 }
 
@@ -171,7 +188,7 @@ main > div.column2 > p:nth-of-type(1) {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px; /* 119.231% */
+    line-height: 31px;
     width: 521px;
 }
 
@@ -225,6 +242,12 @@ main > div.column2 > div.position-button > button {
     top: -6px;
     right: 5px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+main > div.column2 > div.position-button > button:hover {
+    color: #9c9c9c;
+    transition: 0.5s;
 }
 
 div.position-button {
@@ -286,6 +309,12 @@ section.middle > div.column3 > button {
     text-transform: capitalize;
     margin-top: 58px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+section.middle > div.column3 > button:hover {
+    background: #02061A;
+    transition: 0.5s;
 }
 
 section.middle > div.card1 {
@@ -357,6 +386,12 @@ section.middle > div.card2 > div.flex > button {
     text-transform: capitalize;
     margin-bottom: 22px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+section.middle > div.card2 > div.flex > button:hover {
+    background: #2f225c;
+    transition: 0.5s;
 }
 
 div.flex {
@@ -449,7 +484,7 @@ section.bottom > h2 {
     text-align: center;
     font-size: 60px;
     font-weight: 700;
-    line-height: 60px; /* 100% */
+    line-height: 60px;
     width: 312px;
     margin: 0 auto;
 }
@@ -464,11 +499,17 @@ section.bottom > button {
     font-family: "Outfit", sans-serif;
     font-size: 40px;
     font-weight: 700;
-    line-height: 60px; /* 150% */
+    line-height: 60px;
     text-transform: uppercase;
     margin: 39px auto 0 auto;
     display: block;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+section.bottom > button:hover {
+    background-color: #000813;
+    transition: 0.5s;
 }
 
 /*FOOTER*/
@@ -523,37 +564,53 @@ footer > div > div.gap {
     gap: 22px;
 }
 
-footer > div > div.footer-block {
+footer > div > form {
     width: 253px;
     height: 60px;
     border-radius: 50px;
     background: #3B7C70;
     display: flex;
     align-items: center;
-    gap: 46px;
+    justify-content: space-between;
+    padding: 0 1px 0 12px;
 }
 
-footer > div > div.footer-block > p {
+footer > div > form > input[type="email"] {
+    background: none;
+    height: 30px;
+    width: 130px;
+    border: none;
+}
+
+footer > div > form > input[type="email"]::placeholder {
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
     text-transform: capitalize;
     opacity: 0.8;
-    margin-left: 12px;
 }
 
-footer > div > div.footer-block > button {
+footer > div > form > input[type="email"]:focus {
+    outline: none;
+}
+
+footer > div > form > input[type="submit"] {
     width: 100px;
     height: 58px;
     border-radius: 50px;
     border: none;
     background: #262E48;
     color: #FFF;
-    font-family: "Outfit", sans-serif;
     font-size: 20px;
     font-weight: 400;
     text-transform: capitalize;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+footer > div > form > input[type="submit"]:hover {
+    background: #0c0c39;
+    transition: 0.5s;
 }
 
 
